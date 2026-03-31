@@ -80,4 +80,7 @@ int main() {
             case 0:
                 cout << "\nKeluar dari program. Terima kasih!" << endl;
                 break;
+            default:
+                cout << "\n[!] Pilihan tidak valid. Silakan masukkan angka 0, 1, atau 2." << endl;
+                break;
 }
