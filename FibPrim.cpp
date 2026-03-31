@@ -43,4 +43,13 @@ bool isFibonacci(int n) {
         a = b;
         b = temp;
     }
+    return (a == n);
+}
+
+void HasilPrima() {
+    if (isPrime(angka)) {
+        cout << "-> HASIL: " << angka << " ADALAH bilangan Prima." << endl;
+    } else {
+        cout << "-> HASIL: " << angka << " BUKAN bilangan Prima." << endl;
+    }
 }
