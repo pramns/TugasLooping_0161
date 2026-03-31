@@ -35,4 +35,12 @@ bool isFibonacci(int n) {
   if (n < 0) {
         return false;
   }
+  int a = 0;
+  int b = 1;
+
+  while (a < n) {
+        int temp = a + b;
+        a = b;
+        b = temp;
+    }
 }
