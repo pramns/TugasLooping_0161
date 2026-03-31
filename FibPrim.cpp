@@ -68,4 +68,9 @@ int main() {
         Menu();
         cin >> pilihan;
   }
+  switch (pilihan) {
+            case 1:
+                inputAngka();
+                HasilPrima();
+                break;
 }
