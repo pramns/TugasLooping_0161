@@ -53,3 +53,11 @@ void HasilPrima() {
         cout << "-> HASIL: " << angka << " BUKAN bilangan Prima." << endl;
     }
 }
+
+void tampilkanHasilFibonacci() {
+    if (isFibonacci(angka)) {
+        cout << "-> HASIL: " << angka << " ADALAH bagian dari deret Fibonacci." << endl;
+    } else {
+        cout << "-> HASIL: " << angka << " BUKAN bagian dari deret Fibonacci." << endl;
+    }
+}
