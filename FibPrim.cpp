@@ -67,7 +67,6 @@ int main() {
   while (pilihan != 0) {
         Menu();
         cin >> pilihan;
-  }
   switch (pilihan) {
             case 1:
                 inputAngka();
@@ -83,4 +82,8 @@ int main() {
             default:
                 cout << "\n[!] Pilihan tidak valid. Silakan masukkan angka 0, 1, atau 2." << endl;
                 break;
-}
+                }  
+        }
+  return 0;
+}    
+
