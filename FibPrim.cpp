@@ -61,3 +61,7 @@ void HasilFibonacci() {
         cout << "-> HASIL: " << angka << " BUKAN bagian dari deret Fibonacci." << endl;
     }
 }
+
+int main() {
+  
+}
